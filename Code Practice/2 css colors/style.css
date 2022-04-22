@@ -1,0 +1,19 @@
+.st {
+  color: white;
+  background-color: black;
+}
+.nd {
+  color: black;
+  background-color: white;
+}
+.rd {
+  color: red;
+  background-color: black;
+}
+.th {
+  color: black;
+  background-color: red;
+}
+body {
+  background-color: rgb(30, 92, 92);
+}

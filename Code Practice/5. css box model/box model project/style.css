@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+.card1 {
+  text-align: center;
+  align-items: center;
+  background-color: rgb(216, 233, 250);
+  height: 300px;
+  width: 230px;
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-top: 120px;
+  margin-left: 300px;
+  margin-right: 50%;
+}
+.card2 {
+  text-align: center;
+  align-items: center;
+  background-color: rgb(216, 233, 250);
+  height: 300px;
+  width: 230px;
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+.rd {
+  text-align: center;
+  background-color: azure;
+  border-radius: 20px;
+  width: 50%;
+  margin: 50%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.circle {
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: red;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}

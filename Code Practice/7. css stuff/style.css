@@ -1,0 +1,15 @@
+:root {
+  --stcolor: red;
+  --ndcolor: green;
+  --rdtransition: all 2s linear;
+  --mainSpacing: 5px;
+}
+h1 {
+  color: var(--stcolor);
+}
+h2 {
+  color: var(--stcolor);
+}
+h3 {
+  color: var(--stcolor);
+}

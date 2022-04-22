@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&display=swap");
+
+/* google fonts */
+
+body {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 30x;
+  font-family: "Inspiration", cursive;
+}
+p {
+  font-size: 30px;
+  font-family: "Hurricane", cursive;
+}
