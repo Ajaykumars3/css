@@ -1,0 +1,33 @@
+.nav{
+    background-color: blue;
+    overflow: scroll;
+    height: 50vh;
+    width: 50vw;
+}
+.outer{
+    height: 50vh;
+    width: 50vw;
+    background-color: brown;
+}
+.inner{
+    overflow: hidden;
+    color: aliceblue;
+    height: 20vh;
+    width: 50vw;
+    background-color: rgb(17, 7, 7);
+}
+.indiamap{
+    height: 60vh;
+    width: 50vw;
+    background-color: green;
+}
+.a{
+    height: 20vh;
+    width: 50vw;
+    background-color: orangered;
+}
+.s{
+    height: 40vh;
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+}
