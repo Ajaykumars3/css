@@ -1,0 +1,13 @@
+
+body{
+    background-color: bisque;
+    border: 2PX solid black;
+    padding:50px;
+    margin: 75px;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-family: monospace;
+}
