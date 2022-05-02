@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.home{
+    border: blue solid 10px;
+    padding: 20px;
+    margin: 40px;
+}
+.a{
+    color: black;
+    background-color: blue;
+    text-align: center;
+    padding: 50PX;
+    margin: 20px;
+    border-radius: 10PX;
+}
+.b{
+    color: black;
+    background-color: blue;
+    padding: 50PX;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10PX;
+}
+.c{
+    color: black;
+    background-color: blue;
+    padding: 50PX;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10PX;
+}
+.d{
+    color: black;
+    background-color: blue;
+    padding: 50PX;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10PX;
+}
+.circle{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 50%
+}
