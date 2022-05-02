@@ -1,0 +1,25 @@
+body{
+    margin: 20px;
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: brown;
+}
+a{
+    text-decoration: underline;
+    font-weight: 750;
+    color: rgb(156, 0, 0);
+}
+.container{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.navigation{
+    padding-left: 20px;
+}
+
+.container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
