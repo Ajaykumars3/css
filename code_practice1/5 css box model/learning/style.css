@@ -1,0 +1,12 @@
+.a{
+   background-color: blueviolet;
+   padding: 40px 20px ;
+   margin: 30px;
+}
+.s{
+    background-color: brown;
+    padding: 20px 40px;
+    margin: 70px;
+    border: 20px dotted black;
+    border-radius: 20px;
+}
