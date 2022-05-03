@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+.top{
+    background-color: rgba(15, 255, 255, 0.247);
+    text-align: center;
+    padding: 100px;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.826);
+    margin: 0 auto;
+
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+h1{
+    background-color: rgb(20, 121, 132);
+    display: inline;
+    margin: 10px;
+}
+img{
+    display: inline;
+}
+.nav{
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-weight: 400;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
