@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+
+  /* header */
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 10%;
+    background-color:#85d3f7;
+  }
+  
+  .logo {
+    cursor: pointer;
+    margin-right: auto;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #050809;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0a0202;
+    background-color: #edf0f1;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .cta {
+    color: #000000;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #aadff7;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #0cd0f8;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #ff0000;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #b12121;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  }
+
+  /* end of header */
+
+
+  /* <!-- main body --> */
+  /* <!-- hero --> */
+  .hero {
+    padding: 25px;
+  }
+  .hero .underline {
+    width: 5rem;
+    height: 0.25rem;
+    background: #0a0202;
+    margin-bottom: 0.5rem;
+    margin-left: 0;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero {
+    background: #0defff;
+  }
+  /* <!-- end of hero --> */
